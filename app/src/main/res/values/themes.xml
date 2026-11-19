@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nexus_black">#FF0A0A0A</color>
+    <color name="nexus_red">#FFE10600</color>
+    <style name="NexusTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/nexus_red</item>
+        <item name="android:colorPrimaryDark">@color/nexus_black</item>
+        <item name="android:colorAccent">@color/nexus_red</item>
+        <item name="android:windowBackground">@color/nexus_black</item>
+        <item name="android:statusBarColor">@color/nexus_black</item>
+        <item name="android:navigationBarColor">@color/nexus_black</item>
+    </style>
+</resources>
